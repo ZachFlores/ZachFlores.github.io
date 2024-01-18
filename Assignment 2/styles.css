@@ -1,0 +1,53 @@
+/* Structure/Typography */
+
+body {
+    background:brown;
+
+    background-image: -moz-linear-gradient();
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+ p {
+        color:black;
+}
+
+/* Tables */
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 3px solid black;
+    background: gray;
+}
+
+th {
+    background-color: turquoise;
+}
+/* Navigation */
+
+a {
+    text-decoration: none;
+    background: aliceblue;
+    color: black;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+a:hover {
+    background:gray;
+}
+
+/* Images */
+img {
+    border:1px solid whitesmoke;
+    padding: 2px;
+}
+
+/* Div */
+#content {
+    background-color: burlywood;
+    width: 60%;
+}

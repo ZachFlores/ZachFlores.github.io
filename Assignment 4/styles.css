@@ -21,34 +21,25 @@ h3 , a , p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
 
 .flex-container h3 {
     text-align: center;
 }
 
-.flex-container img {
+.flex-container img , a , p {
     width: 100%;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 150px;
     text-decoration: none;
-}
-
-.flex-container a , p {
-    text-decoration: none;
-    text-align: center;
+    
 }
 
 .box {
-    width: 350px;
-    height: 350px;
-    padding: 25px;
+    width: 300px;
+    height: 275px;
+    padding: 20px;
     background-color: skyblue;
     margin: 10px;
 }
-
-
 

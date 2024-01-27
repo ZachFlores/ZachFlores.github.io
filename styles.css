@@ -28,7 +28,7 @@ h3 , a , p {
     text-align: center;
 }
 
-.flex-container img {
+.flex-container img , .png {
     width: 100%;
     justify-content: center;
     align-items: center;

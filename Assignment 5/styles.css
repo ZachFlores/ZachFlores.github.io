@@ -1,0 +1,269 @@
+/* Typography and Structure */
+#container {
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.main-header {
+    height: 100px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 150px;
+    padding-right: 150px;
+    position: relative;
+}
+.main-header ul {
+    list-style-type: none;
+    text-align: right;
+  }
+
+.main-header li , h4 {
+    display: inline;
+    margin: 3px;
+}
+
+.main-header a , h4 {
+    text-decoration: none;
+    color:white;
+    font-size: x-small;
+}
+
+.main-header input {
+    border: 1px solid white;
+    background-color: black;
+    text-align: left;
+    float: right;
+    height: 35px;
+    width: 225px;
+}
+
+.main-header input::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #CC2E40;
+    border: solid 1px #CC2E40;  
+}
+
+.box {
+    width: 225px;
+    height:40px;
+}
+
+.main-header img {
+    position: absolute;
+    bottom: 25px;
+    
+}
+
+.sub-header {
+    height: 50px;
+    background: #73000A;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sub-header h1 {
+    color:white;
+    text-align: left; 
+    height: 50%;  
+    padding-bottom: 2;
+    padding-top: 2.5px;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+/* Body Structure and Typography */
+#body-container {
+    width: 800px;
+    
+}
+
+.bodybox {
+    display: flex;
+    width: 536;
+    height: 227;
+    margin-top: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: right;
+}
+
+.h2andipsum {
+    width: 800px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+    border-bottom: 1px solid gray;
+
+
+
+}
+.h2andipsum h2 {
+   color: #73000A;
+}
+
+.h2andipsum p {
+    color: black;
+    display: flex;
+    font-size: medium;
+}
+
+.flexing {
+    width: 800px;
+    height: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+    border-bottom: 1px solid gray;
+}
+.flexing h2 {
+    text-align: left;
+    color:#73000A;
+}
+.flexing img {
+    float: left;
+}
+.flexing p , h3 {
+    font-size: small;
+    margin-left: 3px;
+}
+.flexing h3 {
+    color:#73000A;
+}
+
+.flexing1 {
+    width: 800px;
+    height: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+    border-bottom: 1px solid gray;
+}
+.flexing1 h2 {
+    text-align: left;
+    color:#73000A;
+}
+.flexing1 img {
+    float: left;
+}
+.flexing1 p , h3 {
+    font-size: small;
+    margin-left: 3px;
+}
+.flexing1 h3 {
+    color:#73000A;
+}
+
+.flexing2 {
+    width: 800px;
+    height: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+    border-bottom: 1px solid gray;
+}
+.flexing2 h2 {
+    text-align: left;
+    color:#73000A;
+}
+.flexing2 img {
+    float: left;
+}
+.flexing2 p , h3 {
+    font-size: small;
+    margin-left: 3px;
+}
+.flexing2 h3 {
+    color:#73000A;
+}
+
+.flexing3 {
+    width: 800px;
+    height: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: right;
+    border-bottom: 1px solid gray;
+}
+.flexing3 h2 {
+    text-align: left;
+    color:#73000A;
+}
+.flexing3 img {
+    float: left;
+}
+.flexing3 p , h3 {
+    font-size: small;
+    margin-left: 3px;
+}
+.flexing3 h3 {
+    color:#73000A;
+}
+
+#footer {
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+}
+
+.sub-footer {
+    background-color: #ECECEC;
+    height: 50px;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sub-footer h5 {
+    color:black;
+    text-align: left; 
+    padding-bottom: 2;
+    padding-top: 2.5px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.sub-footer ul {
+list-style-type: none;
+  text-align: right;
+}
+.sub-footer li {
+    float: right;
+    display: inline;
+    margin: 3px;
+}
+
+.sub-footer a {
+    text-decoration: none;
+    color:black;
+    font-size: x-small;
+}
+
+
+
+
+
+
+

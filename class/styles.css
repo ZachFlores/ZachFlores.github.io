@@ -1,0 +1,49 @@
+:root {
+    --square-top: 0px;
+}
+h1 {
+    color:blue;
+}
+
+.special {
+    background: hotpink;
+    size: 2em;
+    color:aliceblue;
+    border: 2px dotten magenta;
+}
+
+#square{
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    position: relative;
+    top: var(--square-top);
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: pink;
+}
+
+.rainbow {
+    animation-name: colorAnim;
+    animation-duration: 4s;
+}
+
+@keyframes colorAnim {
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: yellow;
+    }
+    40% {
+        background-color: purple;
+    }
+    60%{
+        background-color: aqua;
+    }
+
+}

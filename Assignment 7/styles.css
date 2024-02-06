@@ -1,3 +1,7 @@
+:root {
+    --star-color: yellow;
+}
+
 /* Typography */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -21,6 +25,7 @@ h3 , p {
     color: aqua;
     text-align: center;
 }
+
 /* Structure */
 .columns::after {
     content: "";
@@ -28,8 +33,13 @@ h3 , p {
     clear: both;
 }
 
+.columns {
+    padding-left: 210px;
+}
+
 .col1 {
     width: 20%;
+    height: 472px;
     margin: 40px;  
     float: left;
 }
@@ -37,7 +47,7 @@ h3 , p {
 
 .col3 {
     width: 20%;
-    height: 400px;
+    height: 472px;
     background-color: green;
     margin: 40px;
     float: left;
@@ -45,6 +55,7 @@ h3 , p {
 
 .col2 {
     width: 20%;
+    height: 472px;
     margin: 40px;
     float: left;
 }
@@ -61,14 +72,55 @@ h3 , p {
     margin-right: auto;
 }
 
-.colorChanged {
+#image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colorChanged a {
     background-color: blue;
 }
-    
+
+.slidecontainer {
+    width: 100%; 
+}
+
+  .slider {
+-webkit-appearance: none;
+  appearance: none;
+  width: 100%; 
+  height: 25px; 
+  background: #d3d3d3;
+  outline: none; 
+  opacity: 0.7; 
+  -webkit-transition: .2s; 
+  transition: opacity .2s;
+  }
+
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    background: gray; 
+    cursor: pointer; 
+  }
+
+  .star {
+    background: var(--star-color);
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+  }
 
 @media screen and (max-width: 900px) {
+    .columns {
+        display: flex;
+    }
     .col1 , .col2 , .col3 {
       width: 100%;
+      flex: 1;
     }
   }
 

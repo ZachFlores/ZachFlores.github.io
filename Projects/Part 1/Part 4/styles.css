@@ -1,0 +1,229 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --tan: #F5F5DC;
+  }
+
+  #home {
+    background-color: lightskyblue;
+  }
+
+  #homepar {
+    text-align: center;
+    font-size: large;
+  }
+
+  #getstarted {
+    text-align: center;
+  }
+
+  #getstarted a {
+    padding: 6px;
+    background-color: var(--white);
+    border-radius: 25px;
+  }
+
+  #getstarted a:hover {
+    background-color: gray;
+  }
+
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 40px;
+    }
+  
+    h2 {
+      text-align: center;
+      border-bottom: 1px solid var(--black);
+    }
+  
+    h3 {
+      margin: 5px;
+    }
+    
+    a {
+      color: var(--black);
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    ul {
+      list-style-type: none;
+    }
+
+    #main-nav ul {
+        background-color: lightblue;
+    }
+  
+    .review input {
+      width: 100%;
+      height: 150px;
+    }
+    
+    #main-nav ul {
+      background-color: whitesmoke;
+    }
+    
+    #nav-items li {
+      padding: 15px 0;
+      text-align: center;
+    }
+    
+    #hamburger {
+      padding: 10px;
+    }
+    
+    .joinourteam {
+        text-align: center;
+        text-orientation: upright;
+    }
+
+    .joinourteam input {
+        width: 500px;
+    }
+    #hamburger div {
+      width: 25px;
+      height: 3px;
+      background-color: var(--black);
+      margin: 6px 0;
+    }
+  
+    #homeimage {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+  
+    .container {
+      display: flex;
+    }
+  
+    .box{
+      width: 900px;
+      height: 175px;
+      border: 1px solid var(--black);
+      margin: 10px;
+      position: relative;
+    }
+  
+    .box button {
+      float: right;
+      margin: 5px;
+    }
+
+    .review button {
+        float: right;
+    }
+  
+    .box p {
+      margin: 5px;
+    }
+  
+    .filler {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+    }
+    
+    .filler p {
+      margin: 15px;
+    }
+  
+    .about-list ul {
+      list-style-type: none;
+      text-align: center;
+  
+    }
+  
+    .about-list li {
+      display: inline;
+      margin: 50px;
+    }
+
+    .about-list a {
+        color:white;
+    }
+  
+    .resources {
+      text-orientation: upright;
+      text-align: center;
+    }
+  
+    .hide {
+      display: none;
+    }
+  
+    .resources a {
+      padding: 4px;
+      background-color: whitesmoke;
+      border-radius: 25px;
+    }
+  
+    .resources li {
+      margin: 10px;
+  
+    }
+
+    #ouremployees {
+        text-align: center;
+    }
+
+    #ouremployees label {
+        padding-left: 40px;
+    }
+
+    .filler p {
+        font-size: large;
+    }
+
+    .ouremployeesimg {
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 25px;
+    }
+
+    .refer ul {
+        text-align: center;
+    }
+
+    .refer a {
+        padding: 6px;
+        background-color: var(--white);
+        border-radius: 25px;
+    }
+
+    .refer a:hover {
+        background-color: lightsalmon;
+    }
+
+    .refer li {
+        margin: 20px;
+    }
+
+    @media screen and (min-width: 768px) {
+      #hamburger {
+        display: none;
+      }
+    
+      .flex-container {
+        display: flex;
+      }
+    
+      #main-nav li {
+        flex: 1;
+      }
+    
+      #nav-items {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: space-evenly;
+      }
+    }

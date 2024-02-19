@@ -55,7 +55,11 @@ ul {
     width: 300px;
     border: 2px solid black;
     height: 1100px;
+}
 
+.col2 p {
+    display:flex;
+    align-items: flex-end;
 }
 
 .col1 h3, .col2 h3 {
@@ -104,6 +108,8 @@ ul {
 .description {
     float: right;
 }
+
+
 
 
 

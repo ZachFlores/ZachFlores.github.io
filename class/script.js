@@ -1,29 +1,23 @@
-let pos = 0;
+const imageList = document.getElementById('imageList');
 
-const colorSquare = () => {
-    document.getElementById("square").classList.add("rainbow");
-};
+// Loop through each image and add onclick event listener
+const images = imageList.getElementsByTagName('img');
+for (let i = 0; i < images.length; i++) {
+    const image = images[i];
+    const description = document.createElement('div');
+    description.textContent = image.getAttribute('data-description');
+    description.className = 'description';
+    image.parentNode.insertBefore(description, image.nextSibling);
 
-const moveDown = () => {
-    const root = document.querySelector(":root");
-    root.style.setProperty("--sqaure-top", pos + "px");
-};
+    // Hide the description initially
+    description.style.display = 'none';
 
-const addCircle = () => {
-    const playground = document.getElementById("circle-playground");
-
-    //playground.innerHTML = "<section class='circle'></section";//
-
-    const ball = document.createElement("section");
-    ball.classList.add("circle");
-    playground.append(ball);
-};
-
-
-
-document.getElementById("btn-color").onclick = colorSquare;
-document.getElementById("btn-move-down").onclick = moveDown;
-document.getElementById("btn-add-circle").onclick = addCircle;
-
-
-
+    // Add onclick event listener to show/hide description
+    image.onclick = () => {
+        if (description.style.display === 'none') {
+            description.style.display = 'inline-block';
+        } else {
+            description.style.display = 'none';
+        }
+    };
+}

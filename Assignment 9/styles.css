@@ -1,6 +1,6 @@
 #container {
     display: flex;
-    justify-content: center; /* Center the container horizontally */
+    justify-content: center; 
 }
 
 .col1 {
@@ -9,7 +9,7 @@
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the content vertically */
+    align-items: center; 
 }
 
 #ballcolumn {
@@ -17,8 +17,9 @@
     height: 340px;
     border: 1px solid black;
     display: flex;
-    justify-content: center; /* Center the ballcolumn horizontally */
-    align-items: center; /* Center the ballcolumn vertically */
+    justify-content: center; 
+    align-items: center; 
+    background-color: white;
 }
 
 body {
@@ -36,6 +37,9 @@ h1 {
 h2 {
     color: olivedrab;
 }
+a {
+    text-align: center;
+}
 
 ul {
     text-align: center;
@@ -47,13 +51,11 @@ ul {
     display: flex;
 }
 
-
-
-.col1, .col2 {
+.col2 {
     width: 300px;
-    height: 500px;
     border: 2px solid black;
-    margin: auto;
+    height: 1100px;
+
 }
 
 .col1 h3, .col2 h3 {
@@ -100,9 +102,7 @@ ul {
 }
 
 .description {
-    display: inline-block;
-    vertical-align: top; 
-    margin-left: 10px; 
+    float: right;
 }
 
 

@@ -554,14 +554,6 @@ footer .container {
         justify-content: space-evenly;
       }
 
-        .about-image-container {
-          margin-bottom: 10px;
-        }
-      
-        .about-image-container img {
-          max-width: 100%;
-          height: auto;
-        }
       }
       
 

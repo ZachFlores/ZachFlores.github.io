@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Flores International</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body id="home">
+<head>
+  <title>Flores International</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
     <h1>Flores International</h1>
-
     <nav id="main-nav">
-     
       <div id="hamburger">
         <div></div>
         <div></div>
         <div></div>
-        <div></div>
-        <div></div>
       </div>
-      
       <ul id="nav-items" class="flex-container hide">
-        <a href="index.html"><li job="nav">Home</li></a>
-        <a href="services.html"><li>Services</li></a>
-        <a href="about.html"><li>About Us</li></a>
-        <a href="reviews.html"><li>Reviews</li></a>
-        <a href="resources.html"><li>Resources</li></a>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="resources.html">Resources</a></li>
       </ul>
     </nav>
-    <p id="homepar">Your fastest solution to cyber defense issues on the market.</p>
-    <img src="homeimg.png" id="homeimage">
-    <p id="homepar">Flores International offers mutiple different security packages for corporate situations as well as personal options. Flores covers all aspects of online security and have experts in the cybersecurity field prepared to address any aspects of cyber crime and security.</p>
-    <div id="getstarted">
-    <ul>
-    <li><a id="getstarted"href="services.html">Get Started</a></li>
-    </ul>
+  </header>
+  <section id="hero">
+    <div class="hero-content">
+      <p>Your fastest solution to cyber defense issues on the market.</p>
+      <a href="services.html" class="btn">Get Started</a>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </section>
+  <section id="about">
+    <div class="container">
+      <div class="box" id="about-box">
+        <h2>About Us</h2>
+        <p>Flores International offers multiple security packages for corporate and personal needs, covering all aspects of online security.</p>
+      </div>
+      <div class="box" id="services-box">
+        <h2>Our Services</h2>
+        <p>We provide a range of cybersecurity services including threat detection, risk assessment, and incident response.</p>
+      </div>
+    </div>
+  </section>
+  <section id="reviews">
+    <div class="container">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <p>"Excellent service! Highly recommended."</p>
+        <button>Read More</button>
+      </div>
+      <div class="review">
+        <p>"Great team, very professional."</p>
+        <button>Read More</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <p>Email: info@floresinternational.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <ul class="social-links">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>

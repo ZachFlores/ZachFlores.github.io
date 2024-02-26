@@ -554,12 +554,8 @@ footer .container {
         justify-content: space-evenly;
       }
 
-      .about-image-container {
-        display: flex;
-
-        }
         .about-image-container {
-          margin-bottom: 10px; /* Reduce margin for smaller screens */
+          margin-bottom: 10px;
         }
       
         .about-image-container img {

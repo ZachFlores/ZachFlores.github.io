@@ -8,7 +8,7 @@ class Tree {
       return `
         <div class="tree" onclick="openModal('${this.name}', '${this.image}')">
           <h3>${this.name}</h3>
-          <img src="images/${this.image}">
+          <img src="Images/${this.image}">
         </div>
       `;
     }
@@ -34,7 +34,7 @@ class Tree {
   
   function openModal(name, image) {
     const modalContent = modal.querySelector(".modal-content");
-    
+   //Harvard youtube video: https://www.youtube.com/watch?v=LfaMVlDaQ24&t=72062s
     let treeInfo;
     switch (name) {
       case "Red Maple":

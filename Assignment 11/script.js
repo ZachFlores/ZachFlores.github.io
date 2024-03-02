@@ -15,7 +15,7 @@ class Tree {
   }
   
   const trees = [
-    new Tree("Red Maple", "/maple.jpg"),
+    new Tree("Red Maple", "maple.jpg"),
     new Tree("Bald Cypress", "cypress.jpg"),
     new Tree("Japanese flowering cherry", "cherry.jpg"),
     new Tree("Palmetto", "palmetto.jpg")
@@ -101,7 +101,7 @@ class Tree {
     `;
     
     const rightColumnContent = `
-      <img src="images/${image}">
+      <img src="Images/${image}">
     `;
     
     const modalContentHTML = `

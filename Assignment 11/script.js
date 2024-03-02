@@ -15,10 +15,10 @@ class Tree {
   }
   
   const trees = [
-    new Tree("Red Maple", "maple.jpg"),
-    new Tree("Bald Cypress", "cypress.jpg"),
-    new Tree("Japanese flowering cherry", "cherry.jpg"),
-    new Tree("Palmetto", "palmetto.jpg")
+    new Tree("Red Maple", "Images/maple.jpg"),
+    new Tree("Bald Cypress", "Images/cypress.jpg"),
+    new Tree("Japanese flowering cherry", "Images/cherry.jpg"),
+    new Tree("Palmetto", "Images/palmetto.jpg")
   ];
   
   function displayTrees() {

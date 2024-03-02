@@ -1,0 +1,101 @@
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: darkred;
+}
+
+h2 {
+    color: olive;
+}
+
+.tree {
+    width: calc(25% - 40px); 
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid black; 
+    background-color: darkred; 
+    margin: 20px; 
+    float: left;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-columns {
+    display: flex;
+}
+
+.modal-left-column {
+    flex: 3; 
+    padding-right: 10px; 
+}
+
+.modal-right-column {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+
+.modal-left-column h4 {
+    margin: 5px 0;
+    display: inline-block; 
+    width: 100px; 
+    color: olive;
+}
+
+.modal-left-column p {
+    margin: 5px 0;
+    display: inline-block; 
+    width: calc(100% - 100px); 
+    vertical-align: top; 
+    color: olive;
+}
+
+
+.modal-right-column img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#treeHead {
+    text-align: left;
+}

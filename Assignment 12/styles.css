@@ -1,0 +1,56 @@
+h1, h2 {
+    text-align: center;
+    color: darkred;
+}
+
+h3 {
+    color: olive;
+}
+
+.house, .house-container {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.house .heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.house .colored-div {
+    background-color: olive;
+    border-radius: 10px;
+    margin: 0 auto 10px;
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.house img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.house-info {
+    flex: 1;
+    text-align: left;
+}
+
+.floor-plans-container, .floor-plans-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.floor-plan {
+    width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+}
+
+.floor-plan img {
+    max-width: 100%;
+    height: auto;
+}

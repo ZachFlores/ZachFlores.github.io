@@ -1,0 +1,67 @@
+[
+    {
+      "_id": 1,
+      "img_name": "network_security.jpg",
+      "title": "Network Security",
+      "description": "Comprehensive solutions to protect your network from cyber threats.",
+      "features": ["Firewall Management", "Intrusion Detection", "VPN Setup"],
+      "price": "$1000/month"
+    },
+    {
+      "_id": 2,
+      "img_name": "data_protection.jpg",
+      "title": "Data Protection",
+      "description": "Safeguard your sensitive data from unauthorized access or theft.",
+      "features": ["Data Encryption", "Access Control", "Backup Solutions"],
+      "price": "$800/month"
+    },
+    {
+      "_id": 3,
+      "img_name": "incident_response.jpg",
+      "title": "Incident Response",
+      "description": "Swift response and resolution to security incidents to minimize damage.",
+      "features": ["24/7 Monitoring", "Forensic Analysis", "Damage Assessment"],
+      "price": "Custom Quote"
+    },
+    {
+      "_id": 4,
+      "img_name": "security_consulting.jpg",
+      "title": "Security Consulting",
+      "description": "Expert guidance and advisory services to enhance your security posture.",
+      "features": ["Risk Assessment", "Policy Development", "Training Programs"],
+      "price": "$1500/day"
+    },
+    {
+      "_id": 5,
+      "img_name": "security_auditing.jpg",
+      "title": "Security Auditing",
+      "description": "Comprehensive audits to identify vulnerabilities and compliance gaps.",
+      "features": ["Penetration Testing", "Compliance Checks", "Security Architecture Review"],
+      "price": "$2000/audit"
+    },
+    {
+      "_id": 6,
+      "img_name": "threat_intelligence.jpg",
+      "title": "Threat Intelligence",
+      "description": "Proactive monitoring and analysis of cyber threats to predict and prevent attacks.",
+      "features": ["Dark Web Monitoring", "Threat Hunting", "Security Feeds"],
+      "price": "$500/month"
+    },
+    {
+      "_id": 7,
+      "img_name": "identity_management.jpg",
+      "title": "Identity Management",
+      "description": "Centralized control and management of user identities and access privileges.",
+      "features": ["Single Sign-On", "User Provisioning", "Multi-factor Authentication"],
+      "price": "$1200/month"
+    },
+    {
+      "_id": 8,
+      "img_name": "penetration_testing.jpg",
+      "title": "Penetration Testing",
+      "description": "Simulated cyber attacks to identify and mitigate security weaknesses.",
+      "features": ["External Testing", "Internal Testing", "Report with Recommendations"],
+      "price": "$2500/assessment"
+    }
+  ]
+  

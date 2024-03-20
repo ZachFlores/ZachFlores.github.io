@@ -57,4 +57,3 @@ for (let i = 0; i < images.length; i++) {
 }
 
 document.getElementById("start").onclick = startBouncing;
-

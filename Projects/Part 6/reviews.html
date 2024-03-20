@@ -27,21 +27,27 @@
     </nav>
     <section id="reviews">
         <h2>Customer Reviews</h2>
-        <div class="review-container">
+        <div class="review-container" id="review-container">
+
           <div class="review">
-            <h4>Trey from Gainesville:</h4>
+            <h4>Trey Smith:</h4>
             <p>Flores is a very reliable service. Been a customer since 2024 and have never had any issues. Customer support staff goes above and beyond to get technical issues solved. Would recommend Flores to anyone with a business or even for personal use. Their prices are very competitive and reasonable.</p>
           </div>
           <div class="review">
-            <h4>Ethan from New York:</h4>
+            <h4>Ethan Johnson:</h4>
             <p>Joined Flores earlier this year and have been amazed with the service since I've joined. Security staff is very reliable and I have felt very secure with Flores watching over our cyber footprint. My business values our intellectual property very much and appreciate having a reliable security provider watching our back.</p>
           </div>
         </div>
+        
         <div class="leave-review">
-          <h2>Leave a Review:</h2>
-          <textarea placeholder="Write your review here..."></textarea>
-          <button class="submit-review">Submit</button>
-        </div>
+            <h2>Leave a Review:</h2>
+            <form id="review-form">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <textarea name="review" placeholder="Write your review here..." required></textarea>
+              <button type="submit" class="submit-review">Submit</button>
+            </form>
+          </div>
+                
       </section>
 
     <footer>
@@ -62,6 +68,6 @@
         </div>
       </footer>
 
-    <script src="script.js"></script>
+    <script src="review-form.js"></script>
   </body>
 </html>

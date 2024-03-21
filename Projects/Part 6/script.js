@@ -27,7 +27,7 @@ const toggleHamburger = () => {
   
     const serviceListHTML = services.map(service => `
       <div class="service-item">
-        <img src="images/${service.img_name}" alt="${service.title}">
+        <img src="Images/${service.img_name}">
         <h3>${service.title}</h3>
         <p>${service.description}</p>
         <ul>

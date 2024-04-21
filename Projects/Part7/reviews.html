@@ -1,0 +1,61 @@
+<!-- reviews.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Flores International</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="home">
+  <h1>Flores International</h1>
+
+  <nav id="main-nav">
+    <div id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul id="nav-items" class="flex-container hide">
+      <a href="index.html"><li job="nav">Home</li></a>
+      <a href="services.html"><li>Services</li></a>
+      <a href="about.html"><li>About Us</li></a>
+      <a href="reviews.html"><li>Reviews</li></a>
+      <a href="resources.html"><li>Resources</li></a>
+    </ul>
+  </nav>
+
+  <section id="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review-container" id="review-container"></div>
+    <div class="leave-review">
+      <h2>Leave a Review:</h2>
+      <form id="review-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <textarea name="review" placeholder="Write your review here..." required></textarea>
+        <button type="submit" class="submit-review">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-col">
+        <h3>Contact Us</h3>
+        <p>Email: info@floresinternational.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <ul class="social-links">
+          <li><a href="facebook.com/floresinternational">Facebook</a></li>
+          <li><a href="twitter.com/floresinternational">Twitter</a></li>
+          <li><a href="linkedin.com/floresinternational">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="review-form.js"></script>
+</body>
+</html>

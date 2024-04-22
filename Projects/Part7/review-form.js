@@ -20,7 +20,7 @@ const submitReviewForm = async (e) => {
       throw new Error("Name and Review are required");
     }
 
-    const response = await fetch("http://localhost:3000/api/reviews", {
+    const response = await fetch("https://zachflores-github-io-2.onrender.com/api/reviews", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -64,7 +64,7 @@ const submitReviewForm = async (e) => {
 
 const deleteReview = async (id) => {
   try {
-    const response = await fetch(`http://localhost:3000/api/reviews/${id}`, {
+    const response = await fetch(`https://zachflores-github-io-2.onrender.com/api/reviews/${id}`, {
       method: "DELETE",
     });
 
@@ -82,7 +82,7 @@ const deleteReview = async (id) => {
 
 const displayReviews = async () => {
   try {
-    const response = await fetch("http://localhost:3000/api/reviews");
+    const response = await fetch("https://zachflores-github-io-2.onrender.com/api/reviews");
     const reviews = await response.json();
 
     const reviewContainer = document.getElementById("review-container");
